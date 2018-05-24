@@ -1,5 +1,7 @@
 # How to use this YOLO model?
 
+[简体中文](/zh-hans/examples/tensorflow/yoloTF/README.md)
+
 > This project is designed to reproduce YOLO model. 
 
 
@@ -29,7 +31,7 @@ python yoloTF.py
 
 You need to install VS2017, and configure it with tensorflow, python and opencv.
 
-Open yoloTF project, find yoloTF.py file, and clikc "Run" button.
+Open yoloTF project, find yoloTF.py file, and click "Run" button.
 
 ![](yoloTF/vs2017.png)
 
@@ -89,7 +91,7 @@ python tools/preprocess_pascal_voc.py
 python tools/train.py -c conf/train.cfg
 ```
 
-Or user VS2017 to run the code.
+Or use VS2017 to run the code.
 
 #### Train your customer data
 
